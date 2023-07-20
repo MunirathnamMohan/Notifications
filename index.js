@@ -1,5 +1,4 @@
 const Button = (props) => {
-  //  Write your code here.
   const { className, buttonText } = props;
   return <button className={className}>{buttonText}</button>;
 };
